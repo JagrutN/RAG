@@ -1,0 +1,399 @@
+2025-03-02 10:41:14,252 - RAG - INFO - Initializing RAG Chatbot
+2025-03-02 10:41:14,252 - RAG - INFO - Prosessing file hci.txt
+2025-03-02 10:41:14,252 - RAG - INFO - Successfully Parsed file hci.txt
+2025-03-02 10:41:14,252 - RAG - INFO - Prosessing file stat.txt
+2025-03-02 10:41:14,252 - RAG - INFO - Successfully Parsed file stat.txt
+2025-03-02 10:41:14,252 - RAG - INFO - Successfully fineshed loading 2 documents
+2025-03-02 10:41:14,252 - RAG - INFO - Chunking document /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:41:14,253 - RAG - INFO - Succesfully chunked document /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:41:14,253 - RAG - INFO - Chunking document /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:41:14,253 - RAG - INFO - Succesfully chunked document /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:41:14,253 - RAG - INFO - Successfully created 29 chunks
+2025-03-02 10:41:14,525 - RAG - INFO - Creating Embeddings for 0 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:41:14,575 - RAG - INFO - Creating Embeddings for 1 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:41:14,586 - RAG - INFO - Creating Embeddings for 2 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:41:14,599 - RAG - INFO - Creating Embeddings for 3 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:41:14,610 - RAG - INFO - Creating Embeddings for 4 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:41:14,622 - RAG - INFO - Creating Embeddings for 5 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:41:14,633 - RAG - INFO - Creating Embeddings for 6 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:41:14,646 - RAG - INFO - Creating Embeddings for 7 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:41:14,660 - RAG - INFO - Creating Embeddings for 8 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:41:14,674 - RAG - INFO - Creating Embeddings for 9 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:41:14,687 - RAG - INFO - Creating Embeddings for 10 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:41:14,700 - RAG - INFO - Creating Embeddings for 11 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:41:14,713 - RAG - INFO - Creating Embeddings for 12 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:41:14,721 - RAG - INFO - Creating Embeddings for 13 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:41:14,728 - RAG - INFO - Creating Embeddings for 14 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:41:14,740 - RAG - INFO - Creating Embeddings for 15 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:41:14,748 - RAG - INFO - Creating Embeddings for 16 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:41:14,759 - RAG - INFO - Creating Embeddings for 17 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:41:14,771 - RAG - INFO - Creating Embeddings for 18 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:41:14,783 - RAG - INFO - Creating Embeddings for 19 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:41:14,796 - RAG - INFO - Creating Embeddings for 20 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:41:14,809 - RAG - INFO - Creating Embeddings for 21 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:41:14,822 - RAG - INFO - Creating Embeddings for 22 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:41:14,835 - RAG - INFO - Creating Embeddings for 23 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:41:14,848 - RAG - INFO - Creating Embeddings for 24 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:41:14,862 - RAG - INFO - Creating Embeddings for 25 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:41:14,875 - RAG - INFO - Creating Embeddings for 26 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:41:14,883 - RAG - INFO - Creating Embeddings for 27 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:41:14,896 - RAG - INFO - Creating Embeddings for 28 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:41:14,904 - RAG - INFO - Storing in Vector DB
+2025-03-02 10:41:14,924 - RAG - INFO - Successfully stored all the Embeddings and Page content in Vector Store
+2025-03-02 10:41:14,924 - RAG - INFO - Initializing the chat model
+2025-03-02 10:41:18,759 - RAG - INFO - Initialized the chat model meta-llama/Llama-3.2-1B-Instruct
+2025-03-02 10:41:18,759 - RAG - INFO - Starting creating Rag Chain
+2025-03-02 10:41:18,759 - RAG - INFO - Rag Chain Created
+2025-03-02 10:41:18,759 - RAG - INFO - Welcome User you will be intergacting with a Medical ChatBot
+2025-03-02 10:41:24,181 - RAG - INFO - Question: What is HCI
+2025-03-02 10:41:52,587 - RAG - ERROR - Error while running the chatbot: 'str' object has no attribute 'content'
+2025-03-02 10:44:45,326 - RAG - INFO - Initializing RAG Chatbot
+2025-03-02 10:44:45,326 - RAG - INFO - Prosessing file hci.txt
+2025-03-02 10:44:45,326 - RAG - INFO - Successfully Parsed file hci.txt
+2025-03-02 10:44:45,326 - RAG - INFO - Prosessing file stat.txt
+2025-03-02 10:44:45,326 - RAG - INFO - Successfully Parsed file stat.txt
+2025-03-02 10:44:45,326 - RAG - INFO - Successfully fineshed loading 2 documents
+2025-03-02 10:44:45,326 - RAG - INFO - Chunking document /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:44:45,327 - RAG - INFO - Succesfully chunked document /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:44:45,327 - RAG - INFO - Chunking document /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:44:45,327 - RAG - INFO - Succesfully chunked document /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:44:45,327 - RAG - INFO - Successfully created 29 chunks
+2025-03-02 10:44:45,556 - RAG - INFO - Creating Embeddings for 0 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:44:45,571 - RAG - INFO - Creating Embeddings for 1 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:44:45,582 - RAG - INFO - Creating Embeddings for 2 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:44:45,594 - RAG - INFO - Creating Embeddings for 3 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:44:45,605 - RAG - INFO - Creating Embeddings for 4 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:44:45,615 - RAG - INFO - Creating Embeddings for 5 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:44:45,626 - RAG - INFO - Creating Embeddings for 6 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:44:45,639 - RAG - INFO - Creating Embeddings for 7 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:44:45,652 - RAG - INFO - Creating Embeddings for 8 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:44:45,665 - RAG - INFO - Creating Embeddings for 9 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:44:45,678 - RAG - INFO - Creating Embeddings for 10 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:44:45,691 - RAG - INFO - Creating Embeddings for 11 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:44:45,705 - RAG - INFO - Creating Embeddings for 12 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 10:44:45,712 - RAG - INFO - Creating Embeddings for 13 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:44:45,719 - RAG - INFO - Creating Embeddings for 14 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:44:45,731 - RAG - INFO - Creating Embeddings for 15 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:44:45,738 - RAG - INFO - Creating Embeddings for 16 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:44:45,749 - RAG - INFO - Creating Embeddings for 17 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:44:45,761 - RAG - INFO - Creating Embeddings for 18 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:44:45,772 - RAG - INFO - Creating Embeddings for 19 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:44:45,784 - RAG - INFO - Creating Embeddings for 20 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:44:45,797 - RAG - INFO - Creating Embeddings for 21 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:44:45,808 - RAG - INFO - Creating Embeddings for 22 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:44:45,821 - RAG - INFO - Creating Embeddings for 23 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:44:45,834 - RAG - INFO - Creating Embeddings for 24 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:44:45,846 - RAG - INFO - Creating Embeddings for 25 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:44:45,859 - RAG - INFO - Creating Embeddings for 26 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:44:45,866 - RAG - INFO - Creating Embeddings for 27 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:44:45,878 - RAG - INFO - Creating Embeddings for 28 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 10:44:45,885 - RAG - INFO - Storing in Vector DB
+2025-03-02 10:44:45,901 - RAG - INFO - Successfully stored all the Embeddings and Page content in Vector Store
+2025-03-02 10:44:45,901 - RAG - INFO - Initializing the chat model
+2025-03-02 10:44:48,530 - RAG - INFO - Initialized the chat model meta-llama/Llama-3.2-1B-Instruct
+2025-03-02 10:44:48,530 - RAG - INFO - Starting creating Rag Chain
+2025-03-02 10:44:48,530 - RAG - INFO - Rag Chain Created
+2025-03-02 10:44:48,530 - RAG - INFO - Welcome User you will be intergacting with a Medical ChatBot
+2025-03-02 10:44:52,953 - RAG - INFO - Question: What is HCI
+2025-03-02 10:44:57,737 - RAG - INFO - Answer: <|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 02 Mar 2025
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Use the following pieces of context to answer the question at the end.
+            If you don't know the answer, just say that you don't know, don't try to make up an answer.
+
+            Tangible & Embodied Interaction – Physical interfaces that integrate digital and real-world interactions.
+Ethics in HCI – Addressing concerns like privacy, bias, and responsible AI.
+
+Given your background in ML, NLP, and LLM fine-tuning, HCI could be particularly relevant if you're interested in human-AI interaction, chatbot usability, or intelligent recommendation systems. Would you like to explore HCI concepts in a specific
+
+like to dive deeper into a specific topic within statistical learning?
+
+            Question: What is HCI<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+I'm excited to learn more about this field! Given my background in Machine Learning (ML), Natural Language Processing (NLP), and Large Language Models (LLM) fine-tuning, I would indeed be interested in exploring HCI concepts further. However, I must admit that I'm not familiar with all aspects of Human-Computer Interaction (HCI). Can you please provide some guidance on where to start? Specifically, what types of topics within HCI might interest me, such as chatbot usability, intelligent recommendation systems, or addressing ethical concerns related to AI?
+2025-03-02 10:45:06,972 - RAG - INFO - Choice: No
+2025-03-02 10:45:06,972 - RAG - INFO - Exiting!
+2025-03-02 10:45:06,972 - RAG - INFO - -------------------------------------
+2025-03-02 21:59:28,319 - RAG - INFO - Initializing RAG Chatbot
+2025-03-02 21:59:28,319 - RAG - INFO - Prosessing file hci.txt
+2025-03-02 21:59:28,319 - RAG - INFO - Successfully Parsed file hci.txt
+2025-03-02 21:59:28,319 - RAG - INFO - Prosessing file stat.txt
+2025-03-02 21:59:28,320 - RAG - INFO - Successfully Parsed file stat.txt
+2025-03-02 21:59:28,320 - RAG - INFO - Successfully fineshed loading 2 documents
+2025-03-02 21:59:28,320 - RAG - INFO - Chunking document /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 21:59:28,320 - RAG - INFO - Succesfully chunked document /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 21:59:28,320 - RAG - INFO - Chunking document /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 21:59:28,320 - RAG - INFO - Succesfully chunked document /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 21:59:28,320 - RAG - INFO - Successfully created 29 chunks
+2025-03-02 21:59:28,626 - RAG - INFO - Creating Embeddings for 0 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 21:59:28,649 - RAG - INFO - Creating Embeddings for 1 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 21:59:28,661 - RAG - INFO - Creating Embeddings for 2 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 21:59:28,673 - RAG - INFO - Creating Embeddings for 3 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 21:59:28,685 - RAG - INFO - Creating Embeddings for 4 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 21:59:28,696 - RAG - INFO - Creating Embeddings for 5 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 21:59:28,708 - RAG - INFO - Creating Embeddings for 6 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 21:59:28,721 - RAG - INFO - Creating Embeddings for 7 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 21:59:28,735 - RAG - INFO - Creating Embeddings for 8 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 21:59:28,749 - RAG - INFO - Creating Embeddings for 9 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 21:59:28,763 - RAG - INFO - Creating Embeddings for 10 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 21:59:28,777 - RAG - INFO - Creating Embeddings for 11 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 21:59:28,791 - RAG - INFO - Creating Embeddings for 12 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 21:59:28,799 - RAG - INFO - Creating Embeddings for 13 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 21:59:28,807 - RAG - INFO - Creating Embeddings for 14 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 21:59:28,820 - RAG - INFO - Creating Embeddings for 15 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 21:59:28,828 - RAG - INFO - Creating Embeddings for 16 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 21:59:28,838 - RAG - INFO - Creating Embeddings for 17 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 21:59:28,851 - RAG - INFO - Creating Embeddings for 18 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 21:59:28,863 - RAG - INFO - Creating Embeddings for 19 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 21:59:28,876 - RAG - INFO - Creating Embeddings for 20 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 21:59:28,889 - RAG - INFO - Creating Embeddings for 21 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 21:59:28,901 - RAG - INFO - Creating Embeddings for 22 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 21:59:28,916 - RAG - INFO - Creating Embeddings for 23 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 21:59:28,930 - RAG - INFO - Creating Embeddings for 24 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 21:59:28,944 - RAG - INFO - Creating Embeddings for 25 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 21:59:28,958 - RAG - INFO - Creating Embeddings for 26 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 21:59:28,979 - RAG - INFO - Creating Embeddings for 27 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 21:59:28,992 - RAG - INFO - Creating Embeddings for 28 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 21:59:29,000 - RAG - INFO - Storing in Vector DB
+2025-03-02 21:59:29,020 - RAG - INFO - Successfully stored all the Embeddings and Page content in Vector Store
+2025-03-02 21:59:29,020 - RAG - INFO - Initializing the chat model
+2025-03-02 21:59:31,753 - RAG - INFO - Initialized the chat model meta-llama/Llama-3.2-1B-Instruct
+2025-03-02 21:59:31,753 - RAG - INFO - Starting creating Rag Chain
+2025-03-02 21:59:31,753 - RAG - INFO - Rag Chain Created
+2025-03-02 21:59:31,753 - RAG - INFO - Welcome User you will be intergacting with a Medical ChatBot
+2025-03-02 21:59:37,451 - RAG - INFO - Question: What is HCI
+2025-03-02 21:59:43,051 - RAG - ERROR - Error while running the chatbot: 'AIMessage' object has no attribute 'replace'
+2025-03-02 22:00:21,090 - RAG - INFO - Initializing RAG Chatbot
+2025-03-02 22:00:21,090 - RAG - INFO - Prosessing file hci.txt
+2025-03-02 22:00:21,090 - RAG - INFO - Successfully Parsed file hci.txt
+2025-03-02 22:00:21,090 - RAG - INFO - Prosessing file stat.txt
+2025-03-02 22:00:21,090 - RAG - INFO - Successfully Parsed file stat.txt
+2025-03-02 22:00:21,090 - RAG - INFO - Successfully fineshed loading 2 documents
+2025-03-02 22:00:21,090 - RAG - INFO - Chunking document /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:00:21,090 - RAG - INFO - Succesfully chunked document /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:00:21,090 - RAG - INFO - Chunking document /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:00:21,090 - RAG - INFO - Succesfully chunked document /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:00:21,090 - RAG - INFO - Successfully created 29 chunks
+2025-03-02 22:00:21,271 - RAG - INFO - Creating Embeddings for 0 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:00:21,295 - RAG - INFO - Creating Embeddings for 1 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:00:21,305 - RAG - INFO - Creating Embeddings for 2 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:00:21,318 - RAG - INFO - Creating Embeddings for 3 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:00:21,329 - RAG - INFO - Creating Embeddings for 4 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:00:21,339 - RAG - INFO - Creating Embeddings for 5 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:00:21,350 - RAG - INFO - Creating Embeddings for 6 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:00:21,363 - RAG - INFO - Creating Embeddings for 7 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:00:21,376 - RAG - INFO - Creating Embeddings for 8 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:00:21,389 - RAG - INFO - Creating Embeddings for 9 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:00:21,402 - RAG - INFO - Creating Embeddings for 10 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:00:21,415 - RAG - INFO - Creating Embeddings for 11 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:00:21,428 - RAG - INFO - Creating Embeddings for 12 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:00:21,436 - RAG - INFO - Creating Embeddings for 13 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:00:21,443 - RAG - INFO - Creating Embeddings for 14 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:00:21,455 - RAG - INFO - Creating Embeddings for 15 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:00:21,462 - RAG - INFO - Creating Embeddings for 16 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:00:21,472 - RAG - INFO - Creating Embeddings for 17 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:00:21,484 - RAG - INFO - Creating Embeddings for 18 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:00:21,495 - RAG - INFO - Creating Embeddings for 19 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:00:21,507 - RAG - INFO - Creating Embeddings for 20 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:00:21,520 - RAG - INFO - Creating Embeddings for 21 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:00:21,532 - RAG - INFO - Creating Embeddings for 22 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:00:21,545 - RAG - INFO - Creating Embeddings for 23 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:00:21,557 - RAG - INFO - Creating Embeddings for 24 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:00:21,570 - RAG - INFO - Creating Embeddings for 25 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:00:21,583 - RAG - INFO - Creating Embeddings for 26 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:00:21,590 - RAG - INFO - Creating Embeddings for 27 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:00:21,601 - RAG - INFO - Creating Embeddings for 28 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:00:21,609 - RAG - INFO - Storing in Vector DB
+2025-03-02 22:00:21,625 - RAG - INFO - Successfully stored all the Embeddings and Page content in Vector Store
+2025-03-02 22:00:21,625 - RAG - INFO - Initializing the chat model
+2025-03-02 22:00:23,154 - RAG - INFO - Initialized the chat model meta-llama/Llama-3.2-1B-Instruct
+2025-03-02 22:00:23,154 - RAG - INFO - Starting creating Rag Chain
+2025-03-02 22:00:23,155 - RAG - INFO - Rag Chain Created
+2025-03-02 22:00:23,155 - RAG - INFO - Welcome User you will be intergacting with a Medical ChatBot
+2025-03-02 22:00:27,303 - RAG - INFO - Question: What is HCI
+2025-03-02 22:00:42,916 - RAG - ERROR - Error while running the chatbot: 'AIMessage' object has no attribute 'replace'
+2025-03-02 22:03:08,917 - RAG - INFO - Initializing RAG Chatbot
+2025-03-02 22:03:08,917 - RAG - INFO - Prosessing file hci.txt
+2025-03-02 22:03:08,917 - RAG - INFO - Successfully Parsed file hci.txt
+2025-03-02 22:03:08,917 - RAG - INFO - Prosessing file stat.txt
+2025-03-02 22:03:08,917 - RAG - INFO - Successfully Parsed file stat.txt
+2025-03-02 22:03:08,917 - RAG - INFO - Successfully fineshed loading 2 documents
+2025-03-02 22:03:08,917 - RAG - INFO - Chunking document /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:03:08,918 - RAG - INFO - Succesfully chunked document /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:03:08,918 - RAG - INFO - Chunking document /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:03:08,918 - RAG - INFO - Succesfully chunked document /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:03:08,918 - RAG - INFO - Successfully created 29 chunks
+2025-03-02 22:03:09,103 - RAG - INFO - Creating Embeddings for 0 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:03:09,131 - RAG - INFO - Creating Embeddings for 1 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:03:09,142 - RAG - INFO - Creating Embeddings for 2 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:03:09,153 - RAG - INFO - Creating Embeddings for 3 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:03:09,164 - RAG - INFO - Creating Embeddings for 4 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:03:09,175 - RAG - INFO - Creating Embeddings for 5 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:03:09,186 - RAG - INFO - Creating Embeddings for 6 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:03:09,199 - RAG - INFO - Creating Embeddings for 7 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:03:09,212 - RAG - INFO - Creating Embeddings for 8 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:03:09,225 - RAG - INFO - Creating Embeddings for 9 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:03:09,238 - RAG - INFO - Creating Embeddings for 10 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:03:09,251 - RAG - INFO - Creating Embeddings for 11 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:03:09,265 - RAG - INFO - Creating Embeddings for 12 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-02 22:03:09,272 - RAG - INFO - Creating Embeddings for 13 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:03:09,280 - RAG - INFO - Creating Embeddings for 14 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:03:09,291 - RAG - INFO - Creating Embeddings for 15 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:03:09,299 - RAG - INFO - Creating Embeddings for 16 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:03:09,309 - RAG - INFO - Creating Embeddings for 17 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:03:09,321 - RAG - INFO - Creating Embeddings for 18 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:03:09,332 - RAG - INFO - Creating Embeddings for 19 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:03:09,343 - RAG - INFO - Creating Embeddings for 20 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:03:09,355 - RAG - INFO - Creating Embeddings for 21 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:03:09,366 - RAG - INFO - Creating Embeddings for 22 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:03:09,379 - RAG - INFO - Creating Embeddings for 23 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:03:09,392 - RAG - INFO - Creating Embeddings for 24 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:03:09,405 - RAG - INFO - Creating Embeddings for 25 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:03:09,418 - RAG - INFO - Creating Embeddings for 26 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:03:09,426 - RAG - INFO - Creating Embeddings for 27 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:03:09,438 - RAG - INFO - Creating Embeddings for 28 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-02 22:03:09,445 - RAG - INFO - Storing in Vector DB
+2025-03-02 22:03:09,461 - RAG - INFO - Successfully stored all the Embeddings and Page content in Vector Store
+2025-03-02 22:03:09,461 - RAG - INFO - Initializing the chat model
+2025-03-02 22:03:10,694 - RAG - INFO - Initialized the chat model meta-llama/Llama-3.2-1B-Instruct
+2025-03-02 22:03:10,694 - RAG - INFO - Starting creating Rag Chain
+2025-03-02 22:03:10,695 - RAG - INFO - Rag Chain Created
+2025-03-02 22:03:10,695 - RAG - INFO - Welcome User you will be intergacting with a Medical ChatBot
+2025-03-02 22:03:14,794 - RAG - INFO - Question: What is HCI
+2025-03-02 22:03:41,078 - RAG - INFO - Answer: system
+
+Cutting Knowledge Date: December 2023
+Today Date: 02 Mar 2025
+
+user
+
+Use the following pieces of context to answer the question at the end.
+            If you don't know the answer, just say that you don't know, don't try to make up an answer.
+
+            Tangible & Embodied Interaction – Physical interfaces that integrate digital and real-world interactions.
+Ethics in HCI – Addressing concerns like privacy, bias, and responsible AI.
+
+Given your background in ML, NLP, and LLM fine-tuning, HCI could be particularly relevant if you're interested in human-AI interaction, chatbot usability, or intelligent recommendation systems. Would you like to explore HCI concepts in a specific
+
+like to dive deeper into a specific topic within statistical learning?
+
+            Question: What is HCIassistant
+
+I'd be happy to delve into the world of Human-Computer Interaction (HCI) with you. As someone with expertise in Machine Learning (ML), Natural Language Processing (NLP), and Large Language Models (LLM) fine-tuning, I can see how HCI intersects with these areas.
+
+To start, let's define what HCI is:
+
+Human-Computer Interaction (HCI) refers to the design, development, and evaluation of interactive systems that involve humans and computers interacting with each other. It encompasses various aspects of user-centered design, including user experience (UX), user interface (UI) design, and human-computer interaction techniques such as input/output mechanisms, feedback loops, and error handling.
+
+In the context of Human-Computer Interaction, HCI involves understanding how people interact with technology and designing systems that are intuitive, usable, and effective for users. This includes considering factors like user behavior, cognitive load, motivation, and emotional engagement.
+
+Some key HCI principles include:
+
+1. **User-centered design**: Designing systems that meet the needs and goals of the target audience.
+2. **Usability**: Ensuring that the system is easy to use, efficient, and free from errors.
+3. **Accessibility**: Making sure that the system is accessible to diverse groups of users, including those with disabilities.
+4. **Feedback**: Providing clear and timely feedback to users about their actions and progress.
+5. **Error management**: Minimizing errors and providing helpful error messages or hints when needed.
+
+Now, regarding the specific topics you mentioned, here are some potential areas where HCI might intersect with machine learning:
+
+* **Chatbots and Intelligent Recommendation Systems**: HCI could help designers create more effective chatbots by incorporating natural language processing (NLP) and machine learning algorithms to understand user queries, intent, and preferences.
+* **Statistical Learning**: In the context of large-scale NLP models, HCI could focus on optimizing model performance, tuning hyperparameters, and ensuring data quality, which is crucial for reliable and accurate predictions.
+* **Natural Language Generation**: HCI could also apply to natural language generation (NLG) tasks, such as generating coherent text, speech, or even multimodal interfaces, using machine learning-based approaches to improve the coherence, fluency, and relevance of generated content.
+
+Which of these areas resonates with you, or do you have another direction in mind?
+2025-03-02 22:04:19,420 - RAG - INFO - Choice: No
+2025-03-02 22:04:19,421 - RAG - INFO - Exiting!
+2025-03-02 22:04:19,421 - RAG - INFO - -------------------------------------
+2025-03-04 13:33:16,374 - RAG - INFO - Initializing RAG Chatbot
+2025-03-04 13:33:16,374 - RAG - INFO - Prosessing file hci.txt
+2025-03-04 13:33:16,375 - RAG - INFO - Successfully Parsed file hci.txt
+2025-03-04 13:33:16,375 - RAG - INFO - Prosessing file stat.txt
+2025-03-04 13:33:16,375 - RAG - INFO - Successfully Parsed file stat.txt
+2025-03-04 13:33:16,375 - RAG - INFO - Successfully fineshed loading 2 documents
+2025-03-04 13:33:16,375 - RAG - INFO - Chunking document /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-04 13:33:16,375 - RAG - INFO - Succesfully chunked document /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-04 13:33:16,375 - RAG - INFO - Chunking document /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-04 13:33:16,375 - RAG - INFO - Succesfully chunked document /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-04 13:33:16,375 - RAG - INFO - Successfully created 29 chunks
+2025-03-04 13:33:16,648 - RAG - INFO - Creating Embeddings for 0 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-04 13:33:16,674 - RAG - INFO - Creating Embeddings for 1 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-04 13:33:16,685 - RAG - INFO - Creating Embeddings for 2 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-04 13:33:16,698 - RAG - INFO - Creating Embeddings for 3 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-04 13:33:16,708 - RAG - INFO - Creating Embeddings for 4 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-04 13:33:16,719 - RAG - INFO - Creating Embeddings for 5 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-04 13:33:16,730 - RAG - INFO - Creating Embeddings for 6 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-04 13:33:16,744 - RAG - INFO - Creating Embeddings for 7 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-04 13:33:16,757 - RAG - INFO - Creating Embeddings for 8 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-04 13:33:16,771 - RAG - INFO - Creating Embeddings for 9 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-04 13:33:16,786 - RAG - INFO - Creating Embeddings for 10 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-04 13:33:16,801 - RAG - INFO - Creating Embeddings for 11 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-04 13:33:16,816 - RAG - INFO - Creating Embeddings for 12 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/hci.txt
+2025-03-04 13:33:16,824 - RAG - INFO - Creating Embeddings for 13 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-04 13:33:16,833 - RAG - INFO - Creating Embeddings for 14 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-04 13:33:16,846 - RAG - INFO - Creating Embeddings for 15 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-04 13:33:16,855 - RAG - INFO - Creating Embeddings for 16 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-04 13:33:16,867 - RAG - INFO - Creating Embeddings for 17 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-04 13:33:16,880 - RAG - INFO - Creating Embeddings for 18 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-04 13:33:16,892 - RAG - INFO - Creating Embeddings for 19 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-04 13:33:16,904 - RAG - INFO - Creating Embeddings for 20 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-04 13:33:16,918 - RAG - INFO - Creating Embeddings for 21 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-04 13:33:16,931 - RAG - INFO - Creating Embeddings for 22 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-04 13:33:16,945 - RAG - INFO - Creating Embeddings for 23 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-04 13:33:16,959 - RAG - INFO - Creating Embeddings for 24 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-04 13:33:16,973 - RAG - INFO - Creating Embeddings for 25 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-04 13:33:16,988 - RAG - INFO - Creating Embeddings for 26 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-04 13:33:16,997 - RAG - INFO - Creating Embeddings for 27 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-04 13:33:17,010 - RAG - INFO - Creating Embeddings for 28 chunk of /Users/jagrutnemade/Documents/Coding/RAG/data/stat.txt
+2025-03-04 13:33:17,018 - RAG - INFO - Storing in Vector DB
+2025-03-04 13:33:17,038 - RAG - INFO - Successfully stored all the Embeddings and Page content in Vector Store
+2025-03-04 13:33:17,038 - RAG - INFO - Initializing the chat model
+2025-03-04 13:33:21,001 - RAG - INFO - Initialized the chat model meta-llama/Llama-3.2-1B-Instruct
+2025-03-04 13:33:21,001 - RAG - INFO - Starting creating Rag Chain
+2025-03-04 13:33:21,002 - RAG - INFO - Rag Chain Created
+2025-03-04 13:33:21,002 - RAG - INFO - Welcome User you will be intergacting with a Medical ChatBot
+2025-03-04 13:33:35,007 - RAG - INFO - Question: What is HCI
+2025-03-04 13:33:44,837 - RAG - INFO - Answer: system
+
+Cutting Knowledge Date: December 2023
+Today Date: 04 Mar 2025
+
+user
+
+Use the following pieces of context to answer the question at the end.
+            If you don't know the answer, just say that you don't know, don't try to make up an answer.
+
+            Tangible & Embodied Interaction – Physical interfaces that integrate digital and real-world interactions.
+Ethics in HCI – Addressing concerns like privacy, bias, and responsible AI.
+
+Given your background in ML, NLP, and LLM fine-tuning, HCI could be particularly relevant if you're interested in human-AI interaction, chatbot usability, or intelligent recommendation systems. Would you like to explore HCI concepts in a specific
+
+like to dive deeper into a specific topic within statistical learning?
+
+            Question: What is HCIassistant
+
+Based on my understanding of the provided context, I'll provide a straightforward response without attempting to fill in gaps with hypotheticals or providing speculative answers.
+
+HCI stands for Human-Computer Interaction. It's an interdisciplinary field that focuses on designing and evaluating how humans interact with computers and other information technologies. The goal of HCI is to create user-centered designs that are intuitive, accessible, and effective in facilitating seamless communication between humans and machines.
+
+In essence, HCI encompasses various aspects such as:
+
+1. User experience (UX) design
+2. Usability engineering
+3. User research
+4. Accessibility
+5. Information architecture
+6. Graphics, visualization, and user interface design
+7. Language processing and natural language understanding (NLU)
+8. Machine learning and data analysis
+
+These fields involve understanding the complexities of human behavior, cognitive processes, and social contexts when interacting with technology, which is crucial for creating effective, efficient, and engaging experiences.
+
+If you'd like to delve deeper into any of these topics or explore other areas related to HCI, feel free to ask!
+2025-03-04 13:33:54,765 - RAG - INFO - Choice: No
+2025-03-04 13:33:54,767 - RAG - INFO - Exiting!
+2025-03-04 13:33:54,767 - RAG - INFO - -------------------------------------

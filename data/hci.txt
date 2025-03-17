@@ -1,0 +1,21 @@
+HCI (Human-Computer Interaction) is a multidisciplinary field that focuses on designing and optimizing the interaction between humans and computers. It combines principles from computer science, cognitive psychology, design, and ergonomics to create user-friendly and efficient interfaces.
+
+Core Aspects of HCI
+User-Centered Design (UCD) – Emphasizes designing systems that meet user needs and expectations through iterative feedback and testing.
+Usability – Focuses on how easily and efficiently users can accomplish their goals using a system.
+Interaction Design – Studies how users engage with digital products and interfaces, including visual design, navigation, and responsiveness.
+Cognitive Load – Considers human cognitive abilities to ensure interfaces are intuitive and do not overwhelm users.
+Accessibility & Inclusivity – Ensures that systems are usable for people with disabilities, different cultures, and varying levels of tech literacy.
+Multimodal Interfaces – Goes beyond traditional screens and keyboards to explore voice commands, gesture recognition, AR/VR, and haptics.
+HCI Applications
+Web & Mobile UX/UI – Designing intuitive and aesthetically pleasing interfaces.
+AI & Chatbots – Improving human interaction with AI-driven systems like voice assistants (Alexa, Siri).
+Augmented & Virtual Reality (AR/VR) – Enhancing user experiences in gaming, simulations, and training applications.
+Wearable Devices – Designing interfaces for smartwatches, fitness trackers, and medical wearables.
+Human-Robot Interaction (HRI) – Optimizing how people communicate with robots in industries like healthcare and manufacturing.
+HCI Research Areas
+Affective Computing – Teaching machines to recognize and respond to human emotions.
+Brain-Computer Interfaces (BCI) – Direct communication between the brain and a computer.
+Tangible & Embodied Interaction – Physical interfaces that integrate digital and real-world interactions.
+Ethics in HCI – Addressing concerns like privacy, bias, and responsible AI.
+Given your background in ML, NLP, and LLM fine-tuning, HCI could be particularly relevant if you're interested in human-AI interaction, chatbot usability, or intelligent recommendation systems. Would you like to explore HCI concepts in a specific application area?

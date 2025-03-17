@@ -1,0 +1,7 @@
+chroma_db/
+__pycache__
+Dockerfile.server
+server.py 
+Dockerfile.server
+huggingface.txt
+test.py

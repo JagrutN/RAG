@@ -14,6 +14,8 @@ from langchain_huggingface import (
     ChatHuggingFace,
     HuggingFacePipeline,
 )
+from langgraph.graph import StateGraph, END
+from typing import TypedDict, Literal
 
 
 
@@ -64,7 +66,7 @@ class RAG:
         self.logger.addHandler(error_handler)
 
         self.model_name = "microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext"
-        self.chat_model_name = "meta-llama/Llama-3.2-1B-Instruct"
+        self.chat_model_name = "openchat/openchat-3.5-1210"
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
         self.model = AutoModel.from_pretrained(self.model_name).to(self.device)
@@ -275,3 +277,76 @@ class RAG:
         except Exception as e:
             self.logger.error("Error Creating Rag Chain")
             self.logger.error(f"Error: {e}")
+
+    def create_agentic_rag_graph(self):
+        class State(TypedDict):
+            query: str
+            result: str
+
+        def router(state: State) -> Literal["llm", "retriever", "rag"]:
+            query = state["query"]
+
+            routing_prompt = f"""
+                You are a routing agent in a medical assistant system.
+
+                Given the user query below, decide which path to take:
+
+                - Return "retriever" if the user is asking to **search for or find information from stored documents** (e.g., "Find patient records mentioning diabetes").
+                - Return "llm" if the user has:
+                    - If the user wants an explanation or summary, OR
+                    - Asked a general knowledge question that does not require document retrieval (e.g., "What is the capital of India?", "What is diabetes?", "How are you")
+                - Return "rag" if the query requires both document retrieval and LLM reasoning (e.g., "Summarize findings from uploaded lab results").
+
+                Respond ONLY with one of the following: retriever, llm, rag.
+
+                I just want one word answer.
+
+                Query:
+                {query}
+                """
+
+            try:
+                response = self.chat_model.invoke(routing_prompt).content.strip().lower()
+                text = re.sub(r"<\|.*?\|>", "", response).strip().lower()
+
+        # Extract from model response
+                match = re.search(r"gpt4 correct assistant:\s*(\w+)", text)
+                route = match.group(1) if match else text.split()[-1] if text else "rag"
+                if route not in ["retriever", "llm", "rag"]:
+                    self.logger.warning(f"Invalid route: {route}. Defaulting to 'rag'")
+                    return {"next": "rag"}
+                return {"next": route}
+            except Exception as e:
+                self.logger.error(f"Routing failed: {e}")
+                return {"next": "rag"}
+            
+        def retriever_node(state: State):
+            docs = self.retriever.get_relevant_documents(state["query"])
+            return {"result": "\n\n".join([doc.page_content for doc in docs])}
+
+        def llm_node(state: State):
+            return {"result": self.chat_model.invoke(state["query"]).content}
+
+        def rag_node(state: State):
+            return {"query": state["query"], "result": self.rag_chain.invoke(state["query"])}
+
+        builder = StateGraph(State)
+
+        builder.add_node("router", router)
+        builder.add_node("retriever", retriever_node)
+        builder.add_node("llm", llm_node)
+        builder.add_node("rag", rag_node)
+
+        builder.set_entry_point("router")
+        builder.add_conditional_edges("router", lambda state: state["next"], {
+            "llm": "llm",
+            "retriever": "retriever",
+            "rag": "rag",
+        })
+
+        builder.add_edge("llm", END)
+        builder.add_edge("retriever", END)
+        builder.add_edge("rag", END)
+
+        self.agentic_rag_graph = builder.compile()
+        self.logger.info("Agenti graph created")

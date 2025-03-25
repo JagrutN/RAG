@@ -1,3 +1,25 @@
-2025-03-02 10:41:52,587 - RAG - ERROR - Error while running the chatbot: 'str' object has no attribute 'content'
-2025-03-02 21:59:43,051 - RAG - ERROR - Error while running the chatbot: 'AIMessage' object has no attribute 'replace'
-2025-03-02 22:00:42,916 - RAG - ERROR - Error while running the chatbot: 'AIMessage' object has no attribute 'replace'
+2025-03-24 18:28:17,450 - RAG - ERROR - Error while running the chatbot: 'AIMessage' object has no attribute 'replace'
+2025-03-24 19:16:51,830 - RAG - ERROR - Error while running the chatbot: 'NoneType' object has no attribute 'invoke'
+2025-03-24 19:18:56,324 - RAG - ERROR - Error while running the chatbot: 'NoneType' object has no attribute 'invoke'
+2025-03-24 19:19:40,154 - RAG - ERROR - Error while running the chatbot: 'NoneType' object has no attribute 'invoke'
+2025-03-24 19:23:25,709 - RAG - ERROR - Error while running the chatbot: 'NoneType' object has no attribute 'invoke'
+2025-03-24 19:23:58,886 - RAG - ERROR - Error while running the chatbot: 'NoneType' object has no attribute 'invoke'
+2025-03-24 21:22:31,248 - RAG - ERROR - Error while running the chatbot: Must provide state_schema or input and output
+2025-03-24 21:24:10,032 - RAG - ERROR - Error while running the chatbot: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-03-24 21:35:37,882 - RAG - ERROR - Error while running the chatbot: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-03-24 21:37:21,036 - RAG - ERROR - Error while running the chatbot: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-03-24 21:38:23,137 - RAG - ERROR - Error while running the chatbot: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-03-24 21:41:51,948 - RAG - ERROR - Error while running the chatbot: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-03-24 21:43:13,133 - RAG - ERROR - Error while running the chatbot: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-03-24 21:50:23,153 - RAG - ERROR - Error while running the chatbot: Expected dict, got rag
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_GRAPH_NODE_RETURN_VALUE
+2025-03-24 21:55:44,478 - RAG - ERROR - Error while running the chatbot: Expected dict, got rag
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_GRAPH_NODE_RETURN_VALUE
+2025-03-24 22:00:31,887 - RAG - ERROR - Error while running the chatbot: Expected dict, got rag
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_GRAPH_NODE_RETURN_VALUE
+2025-03-24 22:06:35,239 - RAG - ERROR - Error while running the chatbot: Expected dict, got rag
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_GRAPH_NODE_RETURN_VALUE
+2025-03-24 22:42:57,437 - RAG - ERROR - Error while running the chatbot: Expected dict, got llm
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_GRAPH_NODE_RETURN_VALUE
+2025-03-25 00:02:14,955 - RAG - ERROR - Error while running the chatbot: Expected dict, got llm
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_GRAPH_NODE_RETURN_VALUE

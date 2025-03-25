@@ -27,6 +27,7 @@ def main():
 
     rag.initializeChatModel()
     rag.createRagChain()
+    rag.create_agentic_rag_graph()
 
     print("Your Rag Chatbot is created")
 
@@ -39,16 +40,22 @@ def main():
             logger.info(f"Question: {question}")
             print(f"Question: {question}")
 
-            retrieved_docs = rag.retriever.get_relevant_documents(question)
+            # retrieved_docs = rag.retriever.get_relevant_documents(question)
 
-            # Print retrieved documents for debugging
-            print("\n=== Retrieved Documents ===")
-            for idx, doc in enumerate(retrieved_docs):
-                print(f"Doc {idx+1}: {doc}\n")
-            print("===========================\n")
+            # # Print retrieved documents for debugging
+            # print("\n=== Retrieved Documents ===")
+            # for idx, doc in enumerate(retrieved_docs):
+            #     print(f"Doc {idx+1}: {doc}\n")
+            # print("===========================\n")
 
-            answer = rag.rag_chain.invoke(question)
-            answer = answer.replace("Answer: ", "")
+            #answer = rag.chat_model.invoke(question)
+            #answer = answer.replace("Answer: ", "")
+
+
+            state = {"query": question}
+            output = rag.agentic_rag_graph.invoke(state)
+            answer = output["result"]
+
             print(f"Answer: {answer}")
             logger.info(f"Answer: {answer}")
             choice = input("Do you want to ask more questions? [Y/ N/ No/ Yes]")
